@@ -1,0 +1,52 @@
+.one {
+    width: 1920px;
+    height: 900px;
+    background-image: url("bgc.jpg");
+    color: #FFFFFF;
+    display: flex;
+}
+
+.street {
+    margin: 0;
+    padding: 0;
+    width: 202px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    left: 405px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: right;
+}
+
+.number {
+    margin: 0;
+    padding: 0;
+    width: 107px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    right: 405px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: right;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    width: 1110px;
+    height: 47px;
+    left: 405px;
+    top: 70px;
+    
+}
