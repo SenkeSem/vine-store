@@ -54,6 +54,17 @@
     text-align: center;
 }
 
+.navigation li {
+    justify-content: center;
+    align-items: center;
+    padding: 30px 110px 30px 110px ;
+    border: 1px solid #FFFFFF;
+}
+
+.border1 {
+    border-left: 1px solid #99862A;
+}
+
 .btn1 {
     padding: 15px 30px 15px 30px;
     font-family: 'Montserrat';
@@ -92,4 +103,239 @@
     background: #99862A;
     color: #FFFFFF;
     border: none;
+}
+
+
+
+
+.two {
+    padding: 0;
+    margin: 0;
+    width: 1920px;
+    height: 856px;
+    background-image: url("bgc2.jpg");
+}
+
+h1 {
+    position: absolute;
+    width: 736px;
+    height: 54px;
+    left: 592px;
+    top: 1060px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.line6 {
+    width: 160px;
+    height: 0px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 880px;
+    top: 1154px;
+    border: 1px solid #FFFFFF;
+}
+.text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 733px;
+    height: 192px;
+    left: 595px;
+    top: 1194px;
+}
+
+.bokal {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 880px;
+    top: 1436px;
+}
+
+.border {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    width: 1110px;
+    height: 656px;
+    left: 405px;
+    top: 1000px;
+    border: 3px solid #C4C4C4;
+}
+
+
+
+.three {
+    width: 1920px;
+    height: 1038px;
+    background-image: url(bgc3.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+.line_top {
+    position: absolute;
+    width: 1110px;
+    height: 0px;
+    left: 405px;
+    top: 1836px;
+    border: 1px solid #998431;
+}
+
+h3 {
+    position: absolute;
+    width: 347px;
+    height: 24px;
+    left: 405px;
+    top: 1896px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000
+}
+
+.marsel {
+    position: absolute;
+    width: 298px;
+    height: 108px;
+    left: 405px;
+    top: 1950px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.line9 {
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 405px;
+    top: 2118px;
+    background: #282828;
+    border: 1px solid #282828;
+}
+
+.text2, .text3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.text2 {
+    margin-top: 30px;
+    position: absolute;
+    width: 445px;
+    height: 84px;
+    left: 405px;
+    top: 2118px;
+}
+
+.text3 {
+    position: absolute;
+    width: 445px;
+    height: 84px;
+    left: 405px;
+    top: 2490px;
+}
+
+.line_bot {
+    position: absolute;
+    width: 1110px;
+    height: 0px;
+    left: 405px;
+    top: 2714px;
+    border: 1px solid #998431;
+}
+
+.bnt3 {
+    position: absolute;
+    width: 254px;
+    height: 50px;
+    left: 405px;
+    top: 2604px;
+    background: #998431;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+}
+
+.vino3 {
+    position: absolute;
+    width: 540px;
+    height: 500px;
+    left: 975px;
+    top: 1896px;
+}
+
+.vino2 {
+    position: absolute;
+    width: 255px;
+    height: 228px;
+    left: 975px;
+    top: 2426px;
+}
+
+.vino1 {
+    position: absolute;
+    width: 255px;
+    height: 228px;
+    left: 1260px;
+    top: 2426px;
+}
+
+.line10 {
+    position: absolute;
+    width: 445px;
+    height: 0px;
+    left: 405px;
+    top: 2305px;
+    background: #282828;
+    border: 1px solid #282828;
+}
+
+.line11 {
+    position: absolute;
+    width: 228px;
+    height: 0px;
+    left: 380px;
+    top: 2350px;
+    background: #282828;
+    border: 1px solid #282828;
+    transform: rotate(90deg);
+}
+
+.line12 {
+    position: absolute;
+    width: 445px;
+    height: 0px;
+    left: 405px;
+    top: 2383px;
+    background: #282828;
+    border: 1px solid #282828;
+}
+
+.v1_1980 {
+
 }
