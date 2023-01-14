@@ -336,6 +336,195 @@ h3 {
     border: 1px solid #282828;
 }
 
-.v1_1980 {
+.date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
 
+.v1_1980 {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 424px;
+    top: 2258px;
+}
+
+.v2_1980 {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 424px;
+    top: 2336px;
+}
+
+.v3_1980 {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 424px;
+    top: 2414px;
+}
+
+.v1 {
+    position: absolute;
+    width: 271px;
+    height: 21px;
+    left: 510px;
+    top: 2425px;
+}
+
+.v2 {
+    position: absolute;
+    width: 271px;
+    height: 21px;
+    left: 510px;
+    top: 2347px;
+}
+
+.v3 {
+    position: absolute;
+    width: 271px;
+    height: 21px;
+    left: 510px;
+    top: 2269px;
+}
+
+.zagolovok {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.vz1 {
+    position: absolute;
+    width: 303px;
+    height: 27px;
+    left: 510px;
+    top: 2393px;
+}
+
+.vz2 {
+    position: absolute;
+    width: 303px;
+    height: 27px;
+    left: 510px;
+    top: 2315px;
+}
+
+.vz3 {
+    position: absolute;
+    width: 303px;
+    height: 27px;
+    left: 510px;
+    top: 2237px;
+}
+
+
+
+.four {
+    width: 1920px;
+    height: 767px;
+    background-image: url(bgc4.jpg);
+    color: #FFFFFF;
+}
+
+.container {
+    position: absolute;
+    width: 1110px;
+    height: 538px;
+    left: 405px;
+    top: 2923px;
+    border: 3px solid #C4C4C4;
+}
+
+.four_h2 {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 490px;
+    height: 74px;
+    left: 715px;
+    top: 2864px;
+    background: #282828;
+}
+
+.vinograd {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 375px;
+    top: 2854px;
+}
+
+.bo4ka {
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    left: 1308px;
+    top: 2858px;
+}
+
+.four p {
+    position: absolute;
+    width: 539px;
+    height: 72px;
+    left: 691px;
+    top: 3028px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.line10 {
+    position: absolute;
+    width: 118px;
+    height: 0px;
+    left: 901px;
+    top: 2988px;
+    border: 1px solid #FFFFFF;
+}
+
+.input_name {
+    position: absolute;
+    width: 255px;
+    height: 30px;
+    left: 690px;
+    top: 3181px;
+}
+
+.input_phone {
+    position: absolute;
+    width: 255px;
+    height: 30px;
+    left: 975px;
+    top: 3181px;
+}
+
+.input_adress {
+    position: absolute;
+    width: 540px;
+    height: 30px;
+    left: 690px;
+    top: 3251px;
+}
+
+.zapis {
+    position: absolute;
+    width: 541px;
+    height: 50px;
+    left: 689px;
+    top: 3331px;
+    border: 1px solid #FFFFFF;
 }
