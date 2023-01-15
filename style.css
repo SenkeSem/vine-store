@@ -527,4 +527,40 @@ h3 {
     left: 689px;
     top: 3331px;
     border: 1px solid #FFFFFF;
+    background-color: #282828;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.input_name, .input_phone, .input_adress {
+    background-color: #282828;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+.footer {
+    width: 1920px;
+    height: 220px;
+    background-image: url(bgc5.jpg);
+}
+
+.footer li {
+    list-style: none;
+}
+
+.table1 {
+    width: 1110px;
+    height: 100px;
+    display: flex;
 }
