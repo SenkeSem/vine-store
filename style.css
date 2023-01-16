@@ -561,6 +561,40 @@ h3 {
 
 .table1 {
     width: 1110px;
-    height: 100px;
+    height: 60px;
     display: flex;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 405px;
+    top: 3611px;
+}
+
+.table2 {
+    width: 1110px;
+    height: 60px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 405px;
+    top: 3671px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+}
+
+.table1 li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 30px 0px 30px;
 }
