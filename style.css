@@ -1,111 +1,41 @@
 .one {
+    padding: 0;
+    margin: 0;
     width: 1920px;
     height: 900px;
     background-image: url("bgc.jpg");
     color: #FFFFFF;
+}
+
+.header {
     display: flex;
-}
-
-.street {
-    margin: 0;
-    padding: 0;
-    width: 202px;
-    height: 20px;
-    position: absolute;
-    top: 30px;
-    left: 405px;
+    justify-content: space-between;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 150%;
-}
-
-.number {
-    margin: 0;
-    padding: 0;
-    width: 107px;
-    height: 20px;
-    position: absolute;
-    top: 30px;
-    right: 405px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 150%;
+    color: #FFFFFF;
+    padding: 30px 405px 20px 405px;
 }
 
 .navigation {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    align-items: center;
     width: 1110px;
     height: 47px;
-    left: 405px;
-    top: 70px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    text-align: center;
-}
-
-.navigation li {
-    justify-content: center;
-    align-items: center;
-    padding: 30px 110px 30px 110px ;
+    padding: 0 405px 0 405px;
     border: 1px solid #FFFFFF;
+    
 }
 
-.border1 {
-    border-left: 1px solid #99862A;
-}
-
-.btn1 {
-    padding: 15px 30px 15px 30px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    position: absolute;
-    width: 203px;
-    height: 50px;
-    left: 752px;
-    top: 700px;
-    background: #99862A;
-    color: #FFFFFF;
-    border: none;
-}
-
-.btn2 {
-    padding: 15px 30px 15px 30px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    position: absolute;
-    width: 182px;
-    height: 50px;
-    left: 985px;
-    top: 700px;
-    background: #99862A;
-    color: #FFFFFF;
-    border: none;
-}
-
-
+/* Начало вёрстки второго блока */
 
 
 .two {
