@@ -43,6 +43,12 @@
     border-top: 1px solid #FFFFFF;
 }
 
+.navigation div:hover {
+    color: #99862A;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 .nav2 {
     border-left: 1px solid #FFFFFF;
     border-right: 1px solid #FFFFFF;
@@ -72,6 +78,15 @@
     color: #FFFFFF;
     background: #99862A;
     border: none;
+    padding: 15px 30px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    border: 1px solid #99862A;
+    background-color: #FFFFFF;
+    color: #282828;
+    transition: 0.5s;
 }
 
 
@@ -394,7 +409,6 @@ h3 {
     left: 510px;
     top: 2237px;
 }
-
 
 
 .four {
