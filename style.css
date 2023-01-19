@@ -158,258 +158,37 @@ h1 {
     border: 3px solid #C4C4C4;
 }
 
-
+/* Начало вёртски третьего экрана (который с таблицей) */
 
 .three {
     width: 1920px;
     height: 1038px;
     background-image: url(bgc3.jpg);
-    padding: 0;
-    margin: 0;
 }
+
 
 .line_top {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 405px 60px 405px;
+}
+
+.line_top1 {
     width: 1110px;
-    height: 0px;
-    left: 405px;
-    top: 1836px;
-    border: 1px solid #998431;
+    height: 1px;
+    background-color: #99862A;
 }
 
-h3 {
-    position: absolute;
-    width: 347px;
-    height: 24px;
-    left: 405px;
-    top: 1896px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #000000
+.info {
+    display: flex;
+    padding: 0 125px 60px 405px;
 }
 
-.marsel {
-    position: absolute;
-    width: 298px;
-    height: 108px;
-    left: 405px;
-    top: 1950px;
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    line-height: 150%;
-}
 
-.line9 {
-    position: absolute;
-    width: 160px;
-    height: 0px;
-    left: 405px;
-    top: 2118px;
-    background: #282828;
-    border: 1px solid #282828;
-}
 
-.text2, .text3 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: #282828;
-}
 
-.text2 {
-    margin-top: 30px;
-    position: absolute;
-    width: 445px;
-    height: 84px;
-    left: 405px;
-    top: 2118px;
-}
-
-.text3 {
-    position: absolute;
-    width: 445px;
-    height: 84px;
-    left: 405px;
-    top: 2490px;
-}
-
-.line_bot {
-    position: absolute;
-    width: 1110px;
-    height: 0px;
-    left: 405px;
-    top: 2714px;
-    border: 1px solid #998431;
-}
-
-.bnt3 {
-    position: absolute;
-    width: 254px;
-    height: 50px;
-    left: 405px;
-    top: 2604px;
-    background: #998431;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 20px;
-    border: none;
-}
-
-.vino3 {
-    position: absolute;
-    width: 540px;
-    height: 500px;
-    left: 975px;
-    top: 1896px;
-}
-
-.vino2 {
-    position: absolute;
-    width: 255px;
-    height: 228px;
-    left: 975px;
-    top: 2426px;
-}
-
-.vino1 {
-    position: absolute;
-    width: 255px;
-    height: 228px;
-    left: 1260px;
-    top: 2426px;
-}
-
-.line10 {
-    position: absolute;
-    width: 445px;
-    height: 0px;
-    left: 405px;
-    top: 2305px;
-    background: #282828;
-    border: 1px solid #282828;
-}
-
-.line11 {
-    position: absolute;
-    width: 228px;
-    height: 0px;
-    left: 380px;
-    top: 2350px;
-    background: #282828;
-    border: 1px solid #282828;
-    transform: rotate(90deg);
-}
-
-.line12 {
-    position: absolute;
-    width: 445px;
-    height: 0px;
-    left: 405px;
-    top: 2383px;
-    background: #282828;
-    border: 1px solid #282828;
-}
-
-.date {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: #282828;
-}
-
-.v1_1980 {
-    position: absolute;
-    width: 32px;
-    height: 21px;
-    left: 424px;
-    top: 2258px;
-}
-
-.v2_1980 {
-    position: absolute;
-    width: 32px;
-    height: 21px;
-    left: 424px;
-    top: 2336px;
-}
-
-.v3_1980 {
-    position: absolute;
-    width: 32px;
-    height: 21px;
-    left: 424px;
-    top: 2414px;
-}
-
-.v1 {
-    position: absolute;
-    width: 271px;
-    height: 21px;
-    left: 510px;
-    top: 2425px;
-}
-
-.v2 {
-    position: absolute;
-    width: 271px;
-    height: 21px;
-    left: 510px;
-    top: 2347px;
-}
-
-.v3 {
-    position: absolute;
-    width: 271px;
-    height: 21px;
-    left: 510px;
-    top: 2269px;
-}
-
-.zagolovok {
-    font-family: 'Playfair Display';
-    font-size: 18px;
-    line-height: 150%;
-    color: #282828;
-}
-
-.vz1 {
-    position: absolute;
-    width: 303px;
-    height: 27px;
-    left: 510px;
-    top: 2393px;
-}
-
-.vz2 {
-    position: absolute;
-    width: 303px;
-    height: 27px;
-    left: 510px;
-    top: 2315px;
-}
-
-.vz3 {
-    position: absolute;
-    width: 303px;
-    height: 27px;
-    left: 510px;
-    top: 2237px;
-}
-
+/* Начало вёрстки четвертого экрана*/
 
 .four {
     width: 1920px;
