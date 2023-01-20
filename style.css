@@ -180,12 +180,55 @@ h1 {
     background-color: #99862A;
 }
 
+.container_first {
+    display: flex;
+}
+
 .info {
     display: flex;
     padding: 0 125px 60px 405px;
+    width: 445px;
+    height: 758px;
+    flex-direction: column;
 }
 
+.slider {
+    width: 540px;
+    height: 758px;
+    padding: 0 405px 60px 0;
+}
 
+.vino3 {
+    margin: 0 0 25px 0;
+}
+
+.vino2 {
+    margin: 0 0 0 25px;
+}
+
+.info h3 {
+    margin: 0 0 30px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.info h2 {
+    margin: 0 0 30px 0;
+    width: 298px;
+    height: 108px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.info .line9 {
+    
+}
 
 
 /* Начало вёрстки четвертого экрана*/
