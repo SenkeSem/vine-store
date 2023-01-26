@@ -462,94 +462,41 @@ margin: 60px 405px 79px 405px;
 }
 
 
-.footer {
+/* Начало вёрстки подвала */
+
+.container-footer {
     width: 1920px;
     height: 220px;
     background-image: url(bgc5.jpg);
-}
-
-.footer li {
-    list-style: none;
-}
-
-.table1 {
-    width: 1110px;
-    height: 60px;
     display: flex;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.table-footer {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    height: 120px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 405px;
-    top: 3611px;
-}
-
-.table2 {
-    width: 1110px;
-    height: 60px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 405px;
-    top: 3671px;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #FFFFFF;
-}
-
-.table1 li {
+    padding: 19px 95px 20px 95px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0px 30px 0px 30px;
 }
 
-.table2 li {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 150%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0px 60px 0px 60px;
-}
-
-.line19 {
-    position: absolute;
-    width: 57px;
-    height: 0px;
-    left: 755px;
-    top: 3701px;
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
-}
-
-.line20 {
-    position: absolute;
-    width: 57px;
-    height: 0px;
-    left: 990px;
-    top: 3701px;
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
-}
-
-.line21 {
-    position: absolute;
-    width: 57px;
-    height: 0px;
-    left: 1250px;
-    top: 3701px;
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
