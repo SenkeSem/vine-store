@@ -463,6 +463,13 @@ h1 {
     color: #FFFFFF;
 }
 
+.zapis:hover {
+    cursor: pointer;
+    color: #282828;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
 .input_name, .input_phone, .input_adress {
     background-color: #282828;
     border: none;
@@ -475,6 +482,10 @@ h1 {
     color: #FFFFFF;
 }
 
+input:focus {
+    outline: none;
+    border-bottom: 1.5px solid #99862A;
+}
 
 /* Начало вёрстки подвала */
 
@@ -493,6 +504,12 @@ h1 {
     flex-direction: column;
     width: 1110px;
     height: 120px;
+}
+
+.row1 div:hover, .row2 div:hover {
+    cursor: pointer;
+    color: #282828;
+    transition: 0.5s;
 }
 
 .row1 {
